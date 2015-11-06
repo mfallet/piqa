@@ -1,0 +1,40 @@
+## ------------------------------------------------------------------------------
+#                         __________.___________      _____   
+#                         \______   \   \_____  \    /  _  \  
+#                          |     ___/   |/  / \  \  /  /_\  \ 
+#                          |    |   |   /   \_/.  \/    |    \
+#                          |____|   |___\_____\ \_/\____|__  /
+#                                              \__>        \/ 
+#
+#                                    BY: Marcel Fallet
+## ------------------------------------------------------------------------------ 
+
+
+## piqa stands for "Parse, Injest, Query, Analzye" and is intended
+## as a program that can peform all four functions in one stand-alone,
+## c compiled program.  Starting with a simple input file (of which many
+## are planned to be supported), piqa will parse the necessary data 
+## (agnostically), injest the format into a cloud supported query system
+## and analyze the data based on trends during the query.
+
+## getting piqa:
+
+
+
+## Making piqa FROM CLEAN GITHUB PULL:
+
+Linux:
+  # edit the configure.ac file and use autotools to generate a new configure script if there are any necessary changes
+  # automake generates a makefile based on the Makefile.am program.  Edit Makefile.am AT YOUR OWN RISK
+$ aclocal
+$ autoconf
+$ automake --add-missing
+  # run configure and make
+$ ./configure
+$ make all
+$ make install # not necessary in the first iteration, will do more later
+
+## Cleaning piqa:
+
+$ make clean
+$ make distclean # removes all trace of the package, MUST start with configure script again.
