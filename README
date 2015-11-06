@@ -1,4 +1,4 @@
-## ------------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 #                         __________.___________      _____   
 #                         \______   \   \_____  \    /  _  \  
 #                          |     ___/   |/  / \  \  /  /_\  \ 
@@ -7,7 +7,7 @@
 #                                              \__>        \/ 
 #
 #                                    BY: Marcel Fallet
-## ------------------------------------------------------------------------------ 
+## ----------------------------------------------------------------------------- 
 
 
 ## piqa stands for "Parse, Injest, Query, Analzye" and is intended
@@ -24,8 +24,10 @@
 ## Making piqa FROM CLEAN GITHUB PULL:
 
 Linux:
-  # edit the configure.ac file and use autotools to generate a new configure script if there are any necessary changes
-  # automake generates a makefile based on the Makefile.am program.  Edit Makefile.am AT YOUR OWN RISK
+  # edit the configure.ac file and use autotools to generate a new configure script 
+  # if there are any necessary changes
+  # automake generates a makefile based on the Makefile.am program
+  # Edit Makefile.am AT YOUR OWN RISK
 $ aclocal
 $ autoconf
 $ automake --add-missing
@@ -37,4 +39,4 @@ $ make install # not necessary in the first iteration, will do more later
 ## Cleaning piqa:
 
 $ make clean
-$ make distclean # removes all trace of the package, MUST start with configure script again.
+$ make distclean # removes all trace of the package
