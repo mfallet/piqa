@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-// #include "dbg.h"
+#include "debug.h"
+#include "funcs.h"
 
 int main(){
   int x = 0;
@@ -9,6 +10,5 @@ int main(){
 
   z = x + y;
  
-  printf("Hello World! the variable %i is ", z);
-  
+  printf("Variable z is set to %i. \n", z);
 }

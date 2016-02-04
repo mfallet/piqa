@@ -40,3 +40,9 @@ $ make install # not necessary in the first iteration, will do more later
 
 $ make clean
 $ make distclean # removes all trace of the package
+
+## Changelog:
+#
+# v 0.01 (11/06/15) - Initial alpha commit
+#  - completion of makefile from automake
+#  - addition of README with make instructions
